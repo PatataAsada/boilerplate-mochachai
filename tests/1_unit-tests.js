@@ -11,7 +11,7 @@ suite('Unit Tests', function () {
     // #2
     test('#isDefined, #isUndefined', function () {
       assert.isNull(null, 'null is not undefined');
-      assert.isNull(undefined, 'undefined IS undefined');
+      assert.isNotNull(undefined, 'undefined IS undefined');
       assert.isNotNull('hello', 'A string is not undefined');
     });
     // #3
